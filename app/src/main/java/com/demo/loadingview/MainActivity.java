@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         parent = findViewById(R.id.parent);
         loadView = new LoadView(this);
         parent.addView(loadView);
+
         startLoadData();
     }
 
